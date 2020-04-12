@@ -1,11 +1,9 @@
-package chapter02;
+package chapter02.stack;
 
 import java.util.EmptyStackException;
 import java.util.Iterator;
-import java.util.Objects;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
-import java.util.function.Consumer;
 
 /**
  * 栈

@@ -1,4 +1,4 @@
-package chapter02;
+package chapter02.queue;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
@@ -140,6 +140,11 @@ public class LinkedQueue<T> extends LinkedBlockingQueue<T> {
             T result = current.item;
             current=current.next;
             return result;
+        }
+
+        @Override
+        public void remove() {
+
         }
     }
 

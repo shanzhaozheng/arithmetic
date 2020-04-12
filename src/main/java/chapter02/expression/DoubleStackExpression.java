@@ -1,4 +1,4 @@
-package chapter02;
+package chapter02.expression;
 
 import java.util.Stack;
 

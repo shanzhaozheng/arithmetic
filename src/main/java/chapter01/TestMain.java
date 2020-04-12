@@ -64,7 +64,7 @@ public class TestMain {
      * @return
      */
     public static boolean method2(double x,double y){
-        return  x >= 0 && x <= 1 && y >= 0 && y >= 0;
+        return  x <= 0 && x <= 1 && y >= 0 && y >= 0;
     }
 
     /**
@@ -129,7 +129,6 @@ public class TestMain {
      *
      *
      * @param arr 数据原
-     * @param <T> 数据类型
      * @return
      */
     public static int[][] method6(int [][] arr){

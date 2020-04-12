@@ -1,4 +1,4 @@
-package chapter02;
+package chapter02.stack;
 
 import java.util.Iterator;
 import java.util.Stack;
@@ -38,7 +38,7 @@ public class LinkedStack<T> extends Stack<T> {
 
     @Override
     public synchronized T peek() {
-        return first.item;
+        return first != null ? first.item:null;
     }
 
     @Override
@@ -78,6 +78,11 @@ public class LinkedStack<T> extends Stack<T> {
             Node result = cpNode;
             cpNode = cpNode.next;
             return result.item;
+        }
+
+        @Override
+        public void remove() {
+
         }
 
     }
