@@ -3,7 +3,7 @@ package chapter03;
 public class SelectionSort {
 
     public static void main(String[] args) {
-        int [] arr = {20,9,-1,10,3};
+        int [] arr = {20,9,-1,10,3,100,-1,-9,10,20,100,5,7,3,5,6,45,68};
         selectionSort(arr);
         for (int anInt : arr) {
             System.out.print(anInt+" ");
