@@ -17,7 +17,7 @@ public class LinkedQueue<T> extends LinkedBlockingQueue<T> {
 
     private Node last;
 
-    private AtomicInteger count = new AtomicInteger(0);
+    private AtomicInteger count =  new AtomicInteger(0);
 
     private int max = 10;
 
